@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Креативный продюсер</title>
+	<meta name="description" content="" />
+	
+	
+	
+	<!-- The Generator script. You can move the script to an external file for better overview -->
+	<script type="text/javascript">	
+
+		function generator(){
+			// Add your own words to the wordlist. Be carefull to obey the showed syntax
+			
+			var wordlist1 = ["Экологичный","Короткий","Премиальный","Бесплатный","Рэперский","Бесконечный","Образовательный","Сексуальный","Благотворительный","Мотивирующий","Феминистический","Комедийный","Культурный","Спортивный","Мистический","Офлайновый","Персонализированный","Кулинарный","Летний","Зимний","Музыкальный","Депрессивный","Танцевальный","Виртуальный","Ностальгический","Интерактивный","Гиперлокальный","Случайный","Модный"];
+			
+			var wordlist2 = ["маска","история","чат-бот","денежные переводы","набор стикеров","слово в комментариях","игра в промопосте","видеозвонки","мемы","плейлист","видеоролик","чекбэк","товар","подкаст","трансляция","ситпостинг","аудиоролик","миниэпп","подписка на музыку","VK Taxi","паблик","QR","конкурс","исследование","фестиваль","тест","мерч","тематическая лента","тематическая лента"];
+
+			var wordlist3 = ["с Cosmo","c Роскосмосом","c Яндексом","с Ситимобилом","с Автовазом","с Black Star","с Газгольдером","с Esquire","c Матч ТВ","с ТНТ","со Сбербанком","с Дюраном","c MDK","с МГУ","с Лентачом","с Молодцом","с Амедиатекой","с Авиасейлс","c PlayStation","c TJ","c Ведомостями","с Арзамасом","с Министерством образования","с Pornhub","со Стрелкой","с Медузой","с Перекрестком","c Гринпис","с Беспощадным пиарщиком"];
+
+			var wordlist4 = ["и Шурой","и Олегом Тиньковым","и Олегом Тиньковым","и Тёмой Лебедевым","и Джиганом","и Сидорковым","и Киркоровым","и Долгополовым","и Ивлеевой","и Дзюбой","и котиками","и Фэйсом","и сотрудниками ВК","и единорогом","и детьми","и бабушками","и моделями","и футболистами","и случайными людьми","и Дудём","и туристами","и геймерами","и веб-кам моделями","и животными","и супергероями","и бумерами","и малым бизнесом","и экспертами","и монстрами"];
+
+			var wordlist5 = ["на Новый год","на 8 марта","на 23 февраля","на 1 апреля","на 1 сентября","на 14 февраля","на день матери","на день святого Патрика","на 9 мая","на 1 мая","на чёрную пятницу","на премию Оскар","на первый день лета","на день защиты детей","на день защиты детей","на презентацию Apple","на Ивана Купалу","на КомиККон","на запуск редизайна","на ВК Фест","каждую пятницу","на день рождения пользователя","на выпускной","на день без автомобиля","на спортивный финал","на день донора","на Хэллоуин","на день десантника","на Евровидение"]
+			
+			// Random numbers are made 
+			var randomNumber1 = parseInt(Math.random() * wordlist1.length);
+			var randomNumber2 = parseInt(Math.random() * wordlist2.length);
+			var randomNumber3 = parseInt(Math.random() * wordlist3.length);
+			var randomNumber4 = parseInt(Math.random() * wordlist4.length);
+			var randomNumber5 = parseInt(Math.random() * wordlist5.length);
+			var name = wordlist1[randomNumber1] + " " + wordlist2[randomNumber2] + " " + wordlist3[randomNumber3] + " " + wordlist4[randomNumber4] + " " + wordlist5[randomNumber5];			
+			
+			//alert(name); //Remove first to slashes to alert the name
+			
+			//If there's already a name it is removed  
+			if(document.getElementById("result")){
+				document.getElementById("placeholder").removeChild(document.getElementById("result"));
+			}
+			// A div element is created to show the generated name. The Name is added as a textnode. Textnode is added to the placeholder.
+			var element = document.createElement("div");
+			element.setAttribute("id", "result");
+			element.appendChild(document.createTextNode(name));
+			document.getElementById("placeholder").appendChild(element);
+		}		
+	</script>
+	
+	
+	
+	<!-- Stylesheet. Change styles here. You can move the stylesheet to a extern file for better overview -->
+	<style type="text/css">
+		body{background: #edeef0; font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Geneva,Noto Sans Armenian,Noto Sans Bengali,Noto Sans Cherokee,Noto Sans Devanagari,Noto Sans Ethiopic,Noto Sans Georgian,Noto Sans Hebrew,Noto Sans Kannada,Noto Sans Khmer,Noto Sans Lao,Noto Sans Osmanya,Noto Sans Tamil,Noto Sans Telugu,Noto Sans Thai,sans-serif;}
+		#wrapper{margin:0 auto;padding: 0 20px}
+		#gentop{margin-top: 48px; background: #fafbfc; height: 54px; border-radius: 4px 4px 0 0; outline: none; color: #000; padding: 0 30px; position: relative; box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8; line-height: 54px;
+    font-size: 16px;}
+		#generator{font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased; color: rgb(101, 101, 101);background:#fff; padding: 60px 60px 30px 60px; text-align:center; border-radius: 0 0 4px 4px; box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8; min-height: 160px}
+		#generator input{padding: 7px 16px 8px; margin: 48px 0 24px 0; font-size: 12.5px; display: inline-block; background-color: #5181b8; border: 0; border-radius: 4px; color: #fff; outline: none; cursor:pointer}
+		#generator input[type="button"]:hover {background-color: #5b88bd;}
+		#footer{font-size: 10px; color: #999; margin: 30px 0 0 0;}
+		#footer a{color:#999}
+}
+	</style>
+	
+	
+</head>
+<body onload="generator()">
+	<div id="wrapper">
+		
+		<!-- Change the text to your needs -->
+		<div id="gentop">
+		Генератор спецпроектов
+		</div>
+		<div id="generator" >
+			<div id="placeholder"></div>
+			<input type="button" value="Сгенерировать" onclick="generator()"/>		
+		</div>
+	
+		
+	</div>
+</body>
+</html>
